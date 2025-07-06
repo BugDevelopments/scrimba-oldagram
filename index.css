@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 13px;
+}
+
+
+article {
+    background-color: white;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.container {
+    width: 375px;
+    background-color: #ededed;
+    margin: 0 auto;
+}
+
+.app-header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 375px;
+    height: 67px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 8px;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.app-logo {
+    width: 127px;
+}
+
+.user-avatar {
+    border-radius: 50%;
+    width: 33px;
+}
+
+.post-img {
+    width: 375px;
+    height: 375px;
+    margin: 0;
+}
+
+.posting-header {
+    width: 375px;
+    height: 55px;
+    padding: 16px 8px;
+    gap: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 0;
+}
+
+.poster-info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.poster-avatar {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+}
+
+.poster-name {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.poster-location {
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+}
+/* footer */
+
+.posting-footer {
+    margin: 0;
+    padding: 10px 8px;
+}
+
+.iconsbar {
+    display: flex;
+    gap: 10px;
+    height: 25px;
+    margin: 0;
+    
+}
+
+.likes-count {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.comment-name {
+    font-weight: 700;
+}
+
+.hover-transparency:hover, hover-transparency:focus, hover-transparency:active {
+    opacity: 50%;
+}
